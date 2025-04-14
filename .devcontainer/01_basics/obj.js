@@ -1,5 +1,5 @@
 const mySym=Symbol('key1')
-const JsUser={
+const JsUser={                  //object literal method
     name:'Rishabh',
     age:21,
     address:'sitapur',
