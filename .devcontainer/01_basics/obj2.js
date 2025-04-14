@@ -3,7 +3,7 @@
 const tinder = new Object()
 tinder.name="rishabh"
 tinder.age=21
-console.log(tinder);
+//console.log(tinder);
 
 
 //--------------------------------------------------------------------------
@@ -16,7 +16,7 @@ const tinderUser={
         }
     }
 }
-console.log(tinderUser.username.fullname);
+//console.log(tinderUser.username.fullname);
 
 //--------------- merging two or more objects into one ------------------------------------
 
@@ -33,9 +33,18 @@ const obj3={
     6:'six'
 }
 const obj4={...obj1,...obj3,...obj2}
-console.log(obj4);
+//console.log(obj4);
 
 //-----------------------------------------------------------------------------------------------------
 
-console.log(Object.keys(obj4));
-console.log(Object.values(obj4));
+//console.log(Object.keys(obj4));
+//console.log(Object.values(obj4));
+
+//------------------------- Object de-structuring ---------------------------------------------------------
+
+const company={
+    name:'tcs',
+    city:'noida'
+}
+const {name}=company
+console.log(name);
